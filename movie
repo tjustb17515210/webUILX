@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        .td{width:300px;overflow:hidden} 
+        table{
+            line-height: 40px;
+        }
+      h1{
+          font-family: "仿宋";
+           font-size: 60px;
+           text-align: center;
+      }h2{
+        text-align: center;
+      }
+        </style>
+</head>
+<body background="../img/tupian2.jpg"style="background-repeat:no-repeat;
+
+background-size:100%100%; background-attachment:fixed;">
+    <h1>电影信息</h1>
+    <h2>电影搜索</h2>
+    <table  align="center" border="2">
+    <h3>请输入电影名</h3><input type="text"size="30"value=""Style="align:center;color:blue;backgound:rend"><input type="button "value="搜索"style ="color:#090">
+</script>
+<form>
+    <h4>电影详情</h4>>
+    <tr>
+        <td class="td">电影名：</td>
+        <td class="td"><input name="loginname" type="text"maxlength="12"required
+        pattern="^[a-zA-Z][a-zA-Z0-9_]{4,11}$"autofocus/></td>
+    </tr>
+    <tr>
+        <td class="td">导演：</td>
+        <td class="td"><input name="pass" type="password"maxlength="12"required
+            pattern="^[a-zA-Z]\w{5,17}$"/></td>
+    </tr>
+    <tr>
+        <td class="td">主演：</td>
+        <td class="td"><input name="pass" type="password"maxlength="12"required
+            pattern="^[a-zA-Z]\w{5,17}$"/></td>
+    </tr>
+    <tr>
+        <td class="td">放映时间：</td>
+        <td class="td"><input name="pass" type="password"maxlength="12"required
+            pattern="^[a-zA-Z]\w{5,17}$"/></td>
+    </tr>
+    <tr>
+        <td class="td">语言：</td>
+        <td class="td"><input name="pass" type="password"maxlength="12"required
+            pattern="^[a-zA-Z]\w{5,17}$"/></td>
+    </tr>
+    <tr>
+        <td class="td">剩余影票数量：</td>
+        <td class="td"><input name="pass" type="password"maxlength="12"required
+            pattern="^[a-zA-Z]\w{5,17}$"/></td>
+    </tr>
+</form>
+</table>
+<p  align="center"><a href="01-4.html">返回</a>&nbsp;&nbsp;&nbsp;<a href="01-1.html">前往选座</a></p>
+</style>
+</html>
