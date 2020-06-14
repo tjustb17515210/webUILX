@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head profile="http://gmpg.org/xfn/11">
+<meta charset="UTF-8">
+<title>HTML+CSS+JavaScript构建网页</title>
+<link rel="stylesheet" href="./index_files/style.css" type="text/css" media="screen">
+<style type="text/css">
+#infscr-loading {
+	text-align: center;
+}
+</style>
+</head>
+<body class="sloggato" id="homePage">
+<div id="fb-root"></div>
+<div class="noise"></div>
+<div id="topBar" style="background-color: rgba(0, 0, 0, 0.8); margin-top: 0px; top: 0px; padding: 15px 0px; background-position: initial initial; background-repeat: initial initial;">
+  <div class="center">
+    <div class="topLeft">
+      <div class="center">
+        <div class="topLeft"> 免费音乐，好听音乐，尽在音乐吧 </div>
+        <div id="categoryList"> <span class="buttonList"></span>
+          <ul>
+            <li class="cat-item cat-item-82"><a href="#">Blues<span class="count">20</span></a>
+              <ul class="children">
+                <li class="cat-item cat-item-83"><a href="#">Blues rock<span class="count">4</span></a></li>
+                <li class="cat-item cat-item-169"><a href="#">Gospel<span class="count">1</span></a></li>
+                <li class="cat-item cat-item-94"><a href="#">Rhythm and blues<span class="count">14</span></a></li>
+                <li class="cat-item cat-item-73"><a href="#">Soul<span class="count">7</span></a></li>
+              </ul>
+            </li>
+            <li class="cat-item cat-item-33"><a href="#">Country<span class="count">3</span></a></li>
+            <li class="cat-item cat-item-24"><a href="#">Dance<span class="count">13</span></a>
+              <ul class="children">
+                <li class="cat-item cat-item-127"><a href="#">Dance Pop<span class="count">2</span></a></li>
+                <li class="cat-item cat-item-112"><a href="#">Dubstep<span class="count">1</span></a></li>
+                <li class="cat-item cat-item-89"><a href="#">Electro house<span class="count">4</span></a></li>
+                <li class="cat-item cat-item-44"><a href="#">Electro music<span class="count">6</span></a></li>
+              </ul>
+            </li>
+            <li class="cat-item cat-item-81"><a href="#">Funk<span class="count">4</span></a></li>
+            <li class="cat-item cat-item-171"><a href="#">Holiday<span class="count">4</span></a>
+              <ul class="children">
+                <li class="cat-item cat-item-173"><a href="#">Christmas<span class="count">4</span></a></li>
+              </ul>
+            </li>
+            <li class="cat-item cat-item-110"><a href="#">Indie<span class="count">2</span></a></li>
+            <li class="cat-item cat-item-86"><a href="#">Italian<span class="count">15</span></a>
+              <ul class="children">
+                <li class="cat-item cat-item-99"><a href="#">Electro Rock<span class="count">2</span></a></li>
+                <li class="cat-item cat-item-16"><a href="#">Musica leggera<span class="count">8</span></a></li>
+              </ul>
+            </li>
+            <li class="cat-item cat-item-101"><a href="#">Jazz<span class="count">3</span></a></li>
+            <li class="cat-item cat-item-6"><a href="#">Metal<span class="count">4</span></a>
+              <ul class="children">
+                <li class="cat-item cat-item-137"><a href="#">Heavy metal<span class="count">1</span></a></li>
+              </ul>
+            </li>
+            <li class="cat-item cat-item-164"><a href="#">New age<span class="count">1</span></a></li>
+            <li class="cat-item cat-item-21"><a href="#">Pop<span class="count">41</span></a>
+              <ul class="children">
+                <li class="cat-item cat-item-146"><a href="#">Pop 70<span class="count">1</span></a></li>
+                <li class="cat-item cat-item-157"><a href="#">Pop country<span class="count">1</span></a></li>
+                <li class="cat-item cat-item-125"><a href="#">Pop Dance<span class="count">2</span></a></li>
+                <li class="cat-item cat-item-131"><a href="#">Pop rap<span class="count">3</span></a></li>
+              </ul>
+            </li>
+            <li class="cat-item cat-item-46"><a href="#">Punk<span class="count">2</span></a></li>
+            <li class="cat-item cat-item-149"><a href="#">Rap<span class="count">6</span></a>
+              <ul class="children">
+                <li class="cat-item cat-item-38"><a href="#">Rap rock<span class="count">1</span></a></li>
+              </ul>
+            </li>
+            <li class="cat-item cat-item-160"><a href="#">Reggae<span class="count">1</span></a></li>
+            <li class="cat-item cat-item-9"><a href="#">Rock<span class="count">72</span></a>
+              <ul class="children">
+                <li class="cat-item cat-item-10"><a href="#">Alternative rock<span class="count">30</span></a></li>
+                <li class="cat-item cat-item-54"><a href="#">Hard rock<span class="count">11</span></a></li>
+                <li class="cat-item cat-item-58"><a href="#">Indie rock<span class="count">11</span></a></li>
+                <li class="cat-item cat-item-60"><a href="#">Rock pop<span class="count">16</span></a></li>
+                <li class="cat-item cat-item-62"><a href="#">Rock psichedelico<span class="count">2</span></a></li>
+              </ul>
+            </li>
+            <li class="cat-item cat-item-80"><a href="h#">Theme music<span class="count">2</span></a>
+              <ul class="children">
+                <li class="cat-item cat-item-166"><a href="#">Video game<span class="count">1</span></a></li>
+              </ul>
+            </li>
+            <li class="cat-item cat-item-64"><a href="#">Trip Hop<span class="count">5</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="header" class="center">
+  <div class="int"> 
+    <h1 class="titolo">音乐</h1>
+  </div>
+  <div id="search">
+    <div class="sf_container" id="">
+      <form role="" method="" id="" class="" action="">
+        <div>
+          <label class="screen-reader-text" for="s">Search for:</label>
+          <div class="sf_search" style="width:760px; border:0px solid #"><span class="sf_block">
+            <input class="sf_input" autocomplete="off" type="search" placeholder="输入搜索" name="" container="">
+            </span></div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+
+<div id="container" class="center">
+  <div id="content">
+   <div class="album200 animation post"> <span class="cdAlbum"></span> <a class="coverAlbum" href="#"><span class="patina"></span><img width="200" height="200" src="index_files/mypic4.jpg" class="attachment-duecento wp-post-image" alt="" title=""></a>
+      <h2 class="nameAlbum"> <a href="#" title="Link permanente Quiet Nights"> The wings of the physical </a> </h2>
+      <span class="artistAlbum"> <a href="#" rel="tag">Angela Zhang</a> </span> </div>
+    <div class="album200 animation post"> <span class="cdAlbum"></span> <a class="coverAlbum" href="#"><span class="patina"></span><img width="200" height="200" src="index_files/mypic19.jpg" class="attachment-duecento wp-post-image" alt="" title=""></a>
+      <h2 class="nameAlbum"> <a href="#" title="Link permanente Quiet Nights"> 4 </a> </h2>
+      <span class="artistAlbum"> <a href="#" rel="tag">Beyonce</a> </span> </div>    
+    <div class="album200 animation post"> <span class="cdAlbum"></span> <a class="coverAlbum" href="#"><span class="patina"></span><img width="200" height="200" src="index_files/mypic14.jpg" class="attachment-duecento wp-post-image" alt="" title=""></a>
+      <h2 class="nameAlbum"> <a href="#" title="Link permanente Quiet Nights"> Back to earth </a> </h2>
+      <span class="artistAlbum"> <a href="#" rel="tag">Awolnation</a> </span> </div>
+    <div class="album200 animation post"> <span class="cdAlbum"></span> <a class="coverAlbum" href="#"><span class="patina"></span><img width="200" height="200" src="index_files/mypic16.jpg" class="attachment-duecento wp-post-image" alt="" title=""></a>
+      <h2 class="nameAlbum"> <a href="#" title="Link permanente Quiet Nights"> This is war </a> </h2>
+      <span class="artistAlbum"> <a href="#" rel="tag">30 seconds to marsr</a> </span> </div>
+ <div class="album200 animation post"> <span class="cdAlbum"></span> <a class="coverAlbum" href="#"><span class="patina"></span><img width="200" height="200" src="index_files/mypic17.jpg" class="attachment-duecento wp-post-image" alt="" title=""></a>
+      <h2 class="nameAlbum"> <a href="#" title="Link permanente Quiet Nights"> 21 </a> </h2>
+      <span class="artistAlbum"> <a href="#" rel="tag">Adel</a> </span> </div>     
+    
+<div class="album200 animation post"> <span class="cdAlbum"></span> <a class="coverAlbum" href="#"><span class="patina"></span><img width="200" height="200" src="index_files/mypic15.jpg" class="attachment-duecento wp-post-image" alt="" title=""></a>
+      <h2 class="nameAlbum"> <a href="#" title="Link permanente Quiet Nights"> Havoc and bright lights </a> </h2>
+      <span class="artistAlbum"> <a href="#" rel="tag">Alanis Moriset</a> </span> </div>
+     <div class="album200 animation post"> <span class="cdAlbum"></span> <a class="coverAlbum" href="#"><span class="patina"></span><img width="200" height="200" src="index_files/mypic8.jpg" class="attachment-duecento wp-post-image" alt="Jamiroquai-The-Return-of-the-Space-Cowboy"></a>
+      <h2 class="nameAlbum"> <a href="#"> The Return of the Space Cowboy </a> </h2>
+      <span class="artistAlbum"> <a href="#" rel="tag">jamiroquai</a> </span> </div>
+    <div class="album200 animation post"> <span class="cdAlbum"></span> <a class="coverAlbum" href="#"><span class="patina"></span><img width="200" height="200" src="index_files/mypic6.jpg" class="attachment-duecento wp-post-image" alt="" title=""></a>
+      <h2 class="nameAlbum"> <a href="#" title="Link permanente Quiet Nights"> Sspirit </a> </h2>
+      <span class="artistAlbum"> <a href="#" rel="tag">Leona Lewis</a> </span> </div>
+
+   <div class="album200 animation post"> <span class="cdAlbum"></span> <a class="coverAlbum" href="#"><span class="patina"></span><img width="200" height="200" src="index_files/mypic10.jpg" class="attachment-duecento wp-post-image" alt="david-garcia-diaz-Deadlight-original-game-Soundtrack"></a>
+      <h2 class="nameAlbum"> <a href="#" title="Link permanente Deadlight Game Soundtrack"> Deadlight Game Soundtrack </a> </h2>
+      <span class="artistAlbum"> <a href="#" rel="tag">David Garcia Diaz</a> </span> </div>
+    
+    <div class="album200 animation post"> <span class="cdAlbum"></span> <a class="coverAlbum" href="#"><span class="patina"></span><img width="200" height="200" src="index_files/mypic2.jpg" class="attachment-duecento wp-post-image" alt="" title=""></a>
+      <h2 class="nameAlbum"> <a href="#" title="Link permanente Quiet Nights"> Dark side of the moon </a> </h2>
+      <span class="artistAlbum"> <a href="#" rel="tag">Pink floydn</a> </span> </div>
+    <div class="album200 animation post"> <span class="cdAlbum"></span> <a class="coverAlbum" href="#"><span class="patina"></span><img width="200" height="200" src="index_files/mypic9.jpg" class="attachment-duecento wp-post-image" alt="Enya-And-Winter-Came" title="Enya-And-Winter-Came"></a>
+      <h2 class="nameAlbum"> <a href="#" title="Link permanente And Winter Came"> And Winter Came </a> </h2>
+      <span class="artistAlbum"> <a href="#" rel="tag">Enya</a> </span> </div>
+    <div class="album200 animation post"> <span class="cdAlbum"></span> <a class="coverAlbum" href="#"><span class="patina"></span><img width="200" height="200" src="index_files/mypic18.png" class="attachment-duecento wp-post-image"></a>
+      <h2 class="nameAlbum"> <a href="#" title="Link permanente Think Tank"> Think Tank </a> </h2>
+      <span class="artistAlbum"> <a href="#" rel="tag">Blur</a> </span> </div>
+    <div style="clear: both;"></div>
+    <div style="clear: both;"></div>
+    <div style="clear: both;"></div>
+    <a style="background:url(images/myfirst.png);height:164px;width:69px;position:fixed;top:150px;right:0px;z-index:10002" target="_blank" href="#"></a> </div>
+</div>
+
+</body>
+</html>
